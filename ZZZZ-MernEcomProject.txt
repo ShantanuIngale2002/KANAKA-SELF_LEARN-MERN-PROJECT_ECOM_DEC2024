@@ -69,4 +69,19 @@ Frontend Requirements :
 
 - Goto Client folder :
     > npm i
-    > 
+
+- Now we can Run client using 'npm run dev'
+
+- Now configure server/server.js
+    > add express and initialize its app
+    > add mongoose and initialize db connection
+    > add cors that specifies the endpoint/origin for 'client' to be worked on; along with methods and headers and credentials flag
+    > make app use cookieParser() and express.json() and make it listen on a port
+
+- Now configure server/package.json, add env under 'scripts' as :
+    > "start": "server.js"
+    > "dev": "nodemon server.js"
+
+- Now we can Run server using 'npm run dev'
+
+- 
