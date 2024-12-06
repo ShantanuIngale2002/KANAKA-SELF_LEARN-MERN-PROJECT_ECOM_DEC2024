@@ -84,4 +84,7 @@ Frontend Requirements :
 
 - Now we can Run server using 'npm run dev'
 
-- 
+- On Client side install requirements :
+    > npm i @reduxjs/toolkit react-redux axios react-router-dom 
+
+
