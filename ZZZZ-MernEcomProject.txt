@@ -8,6 +8,9 @@ Credits to - Sangam Mukherjee (video creator)
 
 - Project Requirements :
     > VS Code
+    > Node
+    > Vite
+
 
 Frontend Requirements :
     > bcryptjs          
@@ -40,7 +43,7 @@ Frontend Requirements :
 
 
 - Created folder 'MERN-ECOM'.
-- Within created two folder 'server' and 'client'.
+- Within created folder 'server''.
 
 - Using 'npm init' at server in vs terminal, initiated 'package.json'.
 
@@ -60,4 +63,10 @@ Frontend Requirements :
         + Add IP Adress -> Allow access from anywhere (since its just a learning project) OR Add IP addresses manually
     
 
+- Adding Client to project (at root folder vs-terminal):
+    > npm create vite@latest
+    > client -> React -> Typescript (in video -> javascript)
 
+- Goto Client folder :
+    > npm i
+    > 
